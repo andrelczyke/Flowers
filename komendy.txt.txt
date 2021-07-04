@@ -1,1 +1,1 @@
-html-validate index.html
+ ./node_modules/.bin/html-validate *.html

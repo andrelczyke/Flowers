@@ -4,15 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "init-project":"npm install",
-    "init:dirs":"mkdirp sass css vendor images js",
-    "init:files":"touch README.md index.html sass/style.scss js/script.js",        "init:gitignore":"https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
+    "init-project": "npm install",
+    "init:dirs": "mkdirp sass css vendor images js",
+    "init:files": "touch README.md index.html sass/style.scss js/script.js",
+    "init:gitignore": "https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.27.3",
+    "html-validate": "^5.0.2",
     "mkdirp": "^1.0.4"
   }
 }
